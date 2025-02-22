@@ -1,11 +1,22 @@
-# Start db
+# Requirements
+- docker
+- node
 
+# Initial Setup
+1. Install dependencies
+```
+npm i 
+```
+
+# Setup env for local dev
+1. Start docker
+
+# Start db
 ```
 make db/start
 ```
 
 # Login to db
-
 ```
 # get container id
 docker ps
